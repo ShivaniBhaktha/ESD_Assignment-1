@@ -1,0 +1,19 @@
+/*Find the power of the number. */
+
+public class Q18_PowerOfNumber {
+
+    public static void main(String[] args) {
+
+        int base = 3, exponent = 4;
+
+        long result = 1;
+
+        while (exponent != 0)
+        {
+            result *= base;
+            --exponent;
+        }
+
+        System.out.println("Answer = " + result);
+    }
+}
